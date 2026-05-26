@@ -35,21 +35,37 @@ body{
     height: 400px;
     width: 250px;
     border-radius: 15px;
-    padding: 10px;
-    border: 2px solid transparent;
+    padding: 20px;
+    overflow: hidden;
+
+    border: 0px solid transparent;
 
     background: 
         linear-gradient(black, black) padding-box,
         conic-gradient(
             from var(--rotate),
             black,
-            rgb(201, 21, 21),
+            rgb(239, 14, 14),
             black
         ) border-box;
 
-    overflow: hidden;
+    animation: borderAnimate 5s linear infinite;
+    animation-play-state: paused;
 
-    animation: borderAnimate 10s linear infinite;
+    transition: all 0.3s linear;
+
+    box-shadow: 0 0 0px rgb(218, 27, 27);
+
+    color: whitesmoke;
+    text-shadow: 0 0 0px rgb(214, 45, 45);
+}
+
+.box:hover{
+    animation-play-state: running;
+    box-shadow: 0 0 50px rgb(214, 45, 45);
+
+    color: rgb(214, 45, 45);
+    text-shadow: 0 0 30px rgb(214, 45, 45);
 }
 
 .box img{
@@ -61,14 +77,14 @@ body{
 }
 
 h1{
-    color: whitesmoke;
+    color: inherit;
     font-weight: 600;
     padding-left: 55px;
     padding-top: 20px;
 }
 
 p{
-    color: whitesmoke;
+    color: inherit;
     padding-top: 30px;
     padding-left: 10px;
     font-size: smaller;
