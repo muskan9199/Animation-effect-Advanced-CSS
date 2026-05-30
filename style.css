@@ -56,16 +56,16 @@ body{
 
     box-shadow: 0 0 0px rgb(218, 27, 27);
 
-    color: whitesmoke;
+    color: rgba(245, 245, 245, 0.705);
     text-shadow: 0 0 0px rgb(214, 45, 45);
 }
 
 .box:hover{
     animation-play-state: running;
-    box-shadow: 0 0 50px rgb(214, 45, 45);
+    box-shadow: 0 0 50px rgb(186, 60, 60);
 
     color: rgb(214, 45, 45);
-    text-shadow: 0 0 30px rgb(214, 45, 45);
+    text-shadow: 0 0 30px rgb(175, 102, 102);
 }
 
 .box img{
