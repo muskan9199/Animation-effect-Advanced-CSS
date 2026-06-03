@@ -45,7 +45,7 @@ body{
         conic-gradient(
             from var(--rotate),
             black,
-            rgb(239, 14, 14),
+            rgb(137, 34, 34),
             black
         ) border-box;
 
@@ -54,10 +54,10 @@ body{
 
     transition: all 0.3s linear;
 
-    box-shadow: 0 0 0px rgb(218, 27, 27);
+    box-shadow: 0 0 0px rgb(230, 108, 108);
 
     color: rgba(245, 245, 245, 0.705);
-    text-shadow: 0 0 0px rgb(214, 45, 45);
+    text-shadow: 0 0 0px rgb(98, 44, 44);
 }
 
 .box:hover{
@@ -65,7 +65,7 @@ body{
     box-shadow: 0 0 50px rgb(186, 60, 60);
 
     color: rgb(214, 45, 45);
-    text-shadow: 0 0 30px rgb(175, 102, 102);
+    text-shadow: 0 0 30px rgb(116, 73, 73);
 }
 
 .box img{
